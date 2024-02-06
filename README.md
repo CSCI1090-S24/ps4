@@ -32,7 +32,7 @@ In this program you will read in a file, compile some statistics about the file,
    * Split the string into a list of words using `split()`.
    * Go through that list of words, and use the `word_counts` dictionary to keep track of how many time you see each word.
    * Split the string into a list of characters using `list()`.
-   * Go through that list of characters, and use the `char` dictionary to keep track of how many time you see each character.
+   * Go through that list of characters, and use the `char_counts` dictionary to keep track of how many time you see each character.
    * Return the following as a tuple: `word_counts` and `char_counts`.
   
 2. Write a `main()` function that does the following:
