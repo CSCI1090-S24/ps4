@@ -1,6 +1,8 @@
 # Problem Set 4
 You should feel comfortable with GitHub by now. If you're not, come to office hours with me or the TAs.
 
+If you think you see an error or typo, let me know! I will update [this version of the repo](https://github.com/CSCI1090-S24/ps4) with any corrections you suggest.
+
 The deliverables for this problem set are the following:
 
 * `ps4-part1.py`
@@ -18,7 +20,6 @@ The deliverables for this problem set are the following:
 * The date.
 * "This code is my own work. I did not share my code or look at the code of another student. I did not consult ChatGPT, CoPilot, or another large language model."
 
-<~~! , sets, , modules (random), -->
 
 ## Part 1: Counting words in a file (dictionaries, tuples, functions with return values)
 In this program you will read in a file, compile some statistics about the file, report those statistics to the user, and let the user ask about the frequencies of words and letters.
@@ -46,7 +47,7 @@ wc, cc = get_counts(thefilename)
 
 **USING INPUT** When you use `input()`, it doesn't automatically insert a space before what the user enters. You don't want the user entering a space themselves, so you have to put the space at the very end of whatever you put in quotes as the argument to `input()`.
 
-Here is some sample output using the file `testfile.txt`.
+Here is some sample output using the file `testfile.txt`. Your output should be formatted exactly like this and have the same wording.
 
 ```
 Enter a file to process: testfile.txt
@@ -66,6 +67,29 @@ Ask he user to provide a word with at least 4 but not more than 6 letters. If th
 
 Once you have their word, you will generate every possible four-letter word with no duplicate letters using the letters from the user's input word. After printing out all the possible "words", you will report the total number of words you generated. You should solve this problem using nested `for` loops and the `set()` function. You do not need to write any functions.
 
-Here is some sample output
+Here is some sample output. Your output should be formatted exactly like this and have the same wording.
+```
+Enter a word that has at least 4 and no more than 6 letters: bee
+Enter a word that has at least 4 and no more than 6 letters: elephant
+Enter a word that has at least 4 and no more than 6 letters: tree
+You entered tree.
+I created 0 four letter words that contained no duplicate letters.
+```
+
+```
+Enter a word that has at least 4 and no more than 6 letters: me
+Enter a word that has at least 4 and no more than 6 letters: fireplace
+Enter a word that has at least 4 and no more than 6 letters: smile
+mesi mesl meis meil mels meli msei msel msie msil msle msli mies miel mise misl mile mils mles mlei mlse mlsi mlie mlis emsi emsl emis emil emls emli esmi esml esim esil eslm esli eims eiml eism eisl eilm eils elms elmi elsm elsi elim elis smei smel smie smil smle smli semi seml seim seil selm seli sime siml siem siel silm sile slme slmi slem slei slim slie imes imel imse imsl imle imls iems ieml iesm iesl ielm iels isme isml isem isel islm isle ilme ilms ilem iles ilsm ilse lmes lmei lmse lmsi lmie lmis lems lemi lesm lesi leim leis lsme lsmi lsem lsei lsim lsie lime lims liem lies lism lise
+You entered smile.
+I created 120 four letter words that contained no duplicate letters.
+```
+
+```
+Enter a word that has at least 4 and no more than 6 letters: smell
+mesl mels msel msle mles mlse emsl emls esml eslm elms elsm smel smle seml selm slme slem lmes lmse lems lesm lsme lsem
+You entered smell.
+I created 24 four letter words that contained no duplicate letters.
+```
 
 
