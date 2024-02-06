@@ -63,9 +63,9 @@ The count of "e" is 308.
 
 ## Part 2: Word game word generator
 
-Ask he user to provide a word with at least 4 but not more than 6 letters. If they enter a word with fewer than 4 characters or more than 6 characters, ask them to enter the word again and again until they get it right. Use a `while` loop.
+Ask the user to provide a word with at least 4 but not more than 6 letters. If they enter a word with fewer than 4 characters or more than 6 characters, ask them to enter the word again and again until they get it right. Use a `while` loop.
 
-Once you have their word, you will generate every possible four-letter word with no duplicate letters using the letters from the user's input word. After printing out all the possible "words", you will report the total number of words you generated. You should solve this problem using nested `for` loops and the `set()` function. You do not need to write any functions.
+Once you have their word, you will generate every possible four-letter word with no duplicate letters using the letters from the user's input word. After printing out all the possible "words", you will report the total number of words you generated. You should solve this problem using nested `for` loops and the `set()` function. You do not need to write any functions of your own.
 
 Here is some sample output. Your output should be formatted exactly like this and have the same wording.
 ```
