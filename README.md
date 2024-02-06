@@ -20,6 +20,7 @@ The deliverables for this problem set are the following:
 * The date.
 * "This code is my own work. I did not share my code or look at the code of another student. I did not consult ChatGPT, CoPilot, or another large language model."
 
+**Note** You may not import any libraries to complete this assignment. IYKYK.
 
 ## Part 1: Counting words in a file
 In this program you will read in a file, compile some statistics about the file, report those statistics to the user, and let the user ask about the frequencies of words and letters.
