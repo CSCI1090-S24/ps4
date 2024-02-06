@@ -21,7 +21,7 @@ The deliverables for this problem set are the following:
 * "This code is my own work. I did not share my code or look at the code of another student. I did not consult ChatGPT, CoPilot, or another large language model."
 
 
-## Part 1: Counting words in a file (dictionaries, tuples, functions with return values)
+## Part 1: Counting words in a file
 In this program you will read in a file, compile some statistics about the file, report those statistics to the user, and let the user ask about the frequencies of words and letters.
 
 1. Write a function called `get_counts(filename)` that does the following:
@@ -91,5 +91,22 @@ mesl mels msel msle mles mlse emsl emls esml eslm elms elsm smel smle seml selm 
 You entered smell.
 I created 24 four letter words that contained no duplicate letters.
 ```
+
+---
+
+## Deadline: Monday, February 12, 2024, at 11:59pm EST
+
+## Deliverables
+
+1. `ps4-part1.py` (Part 1: File Statistics)
+2. `ps4-part2.py` (Part 2: Word Generator)
+
+## Reminder: Important Guidelines
+* Points will be deducted if your output does not match the required format.
+* Points will be deducted if your files are not named as required.
+* Points will be deducted if your files are not in the correct location (i.e., in the top-level directory where you see the `README`.)
+* Points will be deducted if you do not include comments as desribed above.
+* Points will be deducted if you do not include your honot pledge at the top of each file.
+
 
 
