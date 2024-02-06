@@ -18,7 +18,7 @@ The deliverables for this problem set are the following:
 * The date.
 * "This code is my own work. I did not share my code or look at the code of another student. I did not consult ChatGPT, CoPilot, or another large language model."
 
-<~~! dictionaries, sets, tuples, modules (random), functions with return values you write yourself -->
+<~~! , sets, , modules (random), -->
 
 ## Part 1: Counting words in a file (dictionaries, tuples, functions with return values)
 In this program you will read in a file, compile some statistics about the file, report those statistics to the user, and let the user ask about the frequencies of words and letters.
@@ -60,8 +60,12 @@ What character count would you like to look up? e
 The count of "e" is 308.
 ```
 
+## Part 2: Word game word generator
 
-## Part 2: Guess a random number (module)
+Ask he user to provide a word with at least 4 but not more than 6 letters. If they enter a word with fewer than 4 characters or more than 6 characters, ask them to enter the word again and again until they get it right. Use a `while` loop.
 
-## Part 3: Function that returns a tuple
+Once you have their word, you will generate every possible four-letter word with no duplicate letters using the letters from the user's input word. After printing out all the possible "words", you will report the total number of words you generated. You should solve this problem using nested `for` loops and the `set()` function. You do not need to write any functions.
+
+Here is some sample output
+
 
