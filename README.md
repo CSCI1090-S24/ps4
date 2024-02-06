@@ -109,7 +109,7 @@ I created 24 four letter words that contained no duplicate letters.
 * Points will be deducted if your files are not named as required.
 * Points will be deducted if your files are not in the correct location (i.e., in the top-level directory where you see the `README`.)
 * Points will be deducted if you do not include comments as desribed above.
-* Points will be deducted if you do not include your honot pledge at the top of each file.
+* Points will be deducted if you do not include your honor pledge at the top of each file.
 
 
 
