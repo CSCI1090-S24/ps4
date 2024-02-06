@@ -10,8 +10,8 @@ The deliverables for this problem set are the following:
 
 **Remember** I now expect you to write comments in your code! One point will be deducted if you do not provide comments explaining your code. Here's what I would like commented this time:
 
-* Before every function, describe what it does and what its arguments are (if any).
-* Before every variable, explain what value it is holding.
+* Before every function, describe what it does and what its arguments are. Exception: you do not need to explain what `main()` is for.
+* Before every variable, explain what value it is holding. Exception: variables that apepar after the keyword `for`.
 
 **Remember** Now at the top of very files, you will include your honor pledge. The first four lines (comments) of every Python file should be this information. You will lose one point if you don't include these four lines.
 
@@ -45,6 +45,8 @@ wc, cc = get_counts(thefilename)
   * Report back to the user the total number of words, the total number of characters, the total number of unique words, and the total number of unique characters. You can use the `keys()` and `values()` functions to get this information from your dictinoaries.
   * Then ask the user what word they want to know the count of, and report back that count (or 0 if the word is not in the dictionary).
   * Then ask the user what character they want to know the count of, and report back that count (or 0 if the character is not in the dictionary).
+
+3. Call `main()` by typing `main()` at the end of the file.
 
 **USING INPUT** When you use `input()`, it doesn't automatically insert a space before what the user enters. You don't want the user entering a space themselves, so you have to put the space at the very end of whatever you put in quotes as the argument to `input()`.
 
